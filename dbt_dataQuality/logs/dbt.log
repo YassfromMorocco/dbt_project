@@ -2363,3 +2363,190 @@ FROM qryFinal
 [0m15:40:10.600741 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
 [0m15:40:10.610157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001872E05E110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001872E05E290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001872E05D930>]}
 [0m15:40:10.615944 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-02-08 15:46:18.024337 | d8a888f3-d1b6-4bf3-a159-4e1d148ec783 ==============================
+[0m15:46:18.024337 [info ] [MainThread]: Running with dbt=1.4.1
+[0m15:46:18.028356 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\rouan\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+[0m15:46:18.028356 [debug] [MainThread]: Tracking: tracking
+[0m15:46:18.117752 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000117F34D7A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000117F34D47F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000117F34D5540>]}
+[0m15:46:18.200858 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:46:18.200858 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:46:18.209425 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd8a888f3-d1b6-4bf3-a159-4e1d148ec783', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000117F36B2710>]}
+[0m15:46:18.218576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd8a888f3-d1b6-4bf3-a159-4e1d148ec783', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000117F3682C80>]}
+[0m15:46:18.219572 [info ] [MainThread]: Found 3 models, 4 tests, 0 snapshots, 0 analyses, 335 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m15:46:18.220568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd8a888f3-d1b6-4bf3-a159-4e1d148ec783', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000117F3682D10>]}
+[0m15:46:18.222563 [info ] [MainThread]: 
+[0m15:46:18.225693 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m15:46:18.228291 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_dbt-for-bigquery-377112_staging'
+[0m15:46:18.229236 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:46:18.782407 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_dbt-for-bigquery-377112_marts'
+[0m15:46:18.783481 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:46:19.573754 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd8a888f3-d1b6-4bf3-a159-4e1d148ec783', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000117F3681060>]}
+[0m15:46:19.574804 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:46:19.575800 [info ] [MainThread]: 
+[0m15:46:19.583543 [debug] [Thread-1 (]: Began running node test.dbt_dataQuality.not_null_stg_football_rankings_prev_rank.fe228554a8
+[0m15:46:19.583543 [info ] [Thread-1 (]: 1 of 4 START test not_null_stg_football_rankings_prev_rank ..................... [RUN]
+[0m15:46:19.585183 [debug] [Thread-1 (]: Acquiring new bigquery connection 'test.dbt_dataQuality.not_null_stg_football_rankings_prev_rank.fe228554a8'
+[0m15:46:19.585183 [debug] [Thread-1 (]: Began compiling node test.dbt_dataQuality.not_null_stg_football_rankings_prev_rank.fe228554a8
+[0m15:46:19.613980 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_dataQuality.not_null_stg_football_rankings_prev_rank.fe228554a8"
+[0m15:46:19.615239 [debug] [Thread-1 (]: Timing info for test.dbt_dataQuality.not_null_stg_football_rankings_prev_rank.fe228554a8 (compile): 2023-02-08 15:46:19.586259 => 2023-02-08 15:46:19.615239
+[0m15:46:19.616484 [debug] [Thread-1 (]: Began executing node test.dbt_dataQuality.not_null_stg_football_rankings_prev_rank.fe228554a8
+[0m15:46:19.649870 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_dataQuality.not_null_stg_football_rankings_prev_rank.fe228554a8"
+[0m15:46:19.650867 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:46:19.653866 [debug] [Thread-1 (]: On test.dbt_dataQuality.not_null_stg_football_rankings_prev_rank.fe228554a8: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_dataQuality", "target_name": "dev", "node_id": "test.dbt_dataQuality.not_null_stg_football_rankings_prev_rank.fe228554a8"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select prev_rank
+from `dbt-for-bigquery-377112`.`staging`.`stg_football_rankings`
+where prev_rank is null
+
+
+
+      
+    ) dbt_internal_test
+[0m15:46:21.268575 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dbt-for-bigquery-377112&j=bq:EU:5d0017a6-e440-48df-9894-5af43c89f915&page=queryresults
+[0m15:46:21.270065 [debug] [Thread-1 (]: Timing info for test.dbt_dataQuality.not_null_stg_football_rankings_prev_rank.fe228554a8 (execute): 2023-02-08 15:46:19.617193 => 2023-02-08 15:46:21.270065
+[0m15:46:21.271555 [info ] [Thread-1 (]: 1 of 4 PASS not_null_stg_football_rankings_prev_rank ........................... [[32mPASS[0m in 1.69s]
+[0m15:46:21.275730 [debug] [Thread-1 (]: Finished running node test.dbt_dataQuality.not_null_stg_football_rankings_prev_rank.fe228554a8
+[0m15:46:21.277237 [debug] [Thread-1 (]: Began running node test.dbt_dataQuality.not_null_stg_football_rankings_rank.fc36a136d4
+[0m15:46:21.278229 [info ] [Thread-1 (]: 2 of 4 START test not_null_stg_football_rankings_rank .......................... [RUN]
+[0m15:46:21.279825 [debug] [Thread-1 (]: Acquiring new bigquery connection 'test.dbt_dataQuality.not_null_stg_football_rankings_rank.fc36a136d4'
+[0m15:46:21.280269 [debug] [Thread-1 (]: Began compiling node test.dbt_dataQuality.not_null_stg_football_rankings_rank.fc36a136d4
+[0m15:46:21.299325 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_dataQuality.not_null_stg_football_rankings_rank.fc36a136d4"
+[0m15:46:21.301374 [debug] [Thread-1 (]: Timing info for test.dbt_dataQuality.not_null_stg_football_rankings_rank.fc36a136d4 (compile): 2023-02-08 15:46:21.281419 => 2023-02-08 15:46:21.301374
+[0m15:46:21.302367 [debug] [Thread-1 (]: Began executing node test.dbt_dataQuality.not_null_stg_football_rankings_rank.fc36a136d4
+[0m15:46:21.319748 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_dataQuality.not_null_stg_football_rankings_rank.fc36a136d4"
+[0m15:46:21.329645 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:46:21.339303 [debug] [Thread-1 (]: On test.dbt_dataQuality.not_null_stg_football_rankings_rank.fc36a136d4: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_dataQuality", "target_name": "dev", "node_id": "test.dbt_dataQuality.not_null_stg_football_rankings_rank.fc36a136d4"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select rank
+from `dbt-for-bigquery-377112`.`staging`.`stg_football_rankings`
+where rank is null
+
+
+
+      
+    ) dbt_internal_test
+[0m15:46:22.836237 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dbt-for-bigquery-377112&j=bq:EU:c8e89703-8f49-4a1d-a054-8ef76837c78d&page=queryresults
+[0m15:46:22.836237 [debug] [Thread-1 (]: Timing info for test.dbt_dataQuality.not_null_stg_football_rankings_rank.fc36a136d4 (execute): 2023-02-08 15:46:21.303857 => 2023-02-08 15:46:22.836237
+[0m15:46:22.838315 [info ] [Thread-1 (]: 2 of 4 PASS not_null_stg_football_rankings_rank ................................ [[32mPASS[0m in 1.56s]
+[0m15:46:22.839099 [debug] [Thread-1 (]: Finished running node test.dbt_dataQuality.not_null_stg_football_rankings_rank.fc36a136d4
+[0m15:46:22.839840 [debug] [Thread-1 (]: Began running node test.dbt_dataQuality.unique_stg_football_rankings_prev_rank.5fb648b946
+[0m15:46:22.840974 [info ] [Thread-1 (]: 3 of 4 START test unique_stg_football_rankings_prev_rank ....................... [RUN]
+[0m15:46:22.842854 [debug] [Thread-1 (]: Acquiring new bigquery connection 'test.dbt_dataQuality.unique_stg_football_rankings_prev_rank.5fb648b946'
+[0m15:46:22.842854 [debug] [Thread-1 (]: Began compiling node test.dbt_dataQuality.unique_stg_football_rankings_prev_rank.5fb648b946
+[0m15:46:22.865505 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_dataQuality.unique_stg_football_rankings_prev_rank.5fb648b946"
+[0m15:46:22.868544 [debug] [Thread-1 (]: Timing info for test.dbt_dataQuality.unique_stg_football_rankings_prev_rank.5fb648b946 (compile): 2023-02-08 15:46:22.843606 => 2023-02-08 15:46:22.867994
+[0m15:46:22.869040 [debug] [Thread-1 (]: Began executing node test.dbt_dataQuality.unique_stg_football_rankings_prev_rank.5fb648b946
+[0m15:46:22.874918 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_dataQuality.unique_stg_football_rankings_prev_rank.5fb648b946"
+[0m15:46:22.886794 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:46:22.889930 [debug] [Thread-1 (]: On test.dbt_dataQuality.unique_stg_football_rankings_prev_rank.5fb648b946: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_dataQuality", "target_name": "dev", "node_id": "test.dbt_dataQuality.unique_stg_football_rankings_prev_rank.5fb648b946"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+
+  select prev_rank as unique_field
+  from `dbt-for-bigquery-377112`.`staging`.`stg_football_rankings`
+  where prev_rank is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m15:46:24.536197 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dbt-for-bigquery-377112&j=bq:EU:3edde4f3-b5a9-4e26-a71a-8e66d4ab2865&page=queryresults
+[0m15:46:24.537194 [debug] [Thread-1 (]: Timing info for test.dbt_dataQuality.unique_stg_football_rankings_prev_rank.5fb648b946 (execute): 2023-02-08 15:46:22.870097 => 2023-02-08 15:46:24.537194
+[0m15:46:24.538191 [info ] [Thread-1 (]: 3 of 4 PASS unique_stg_football_rankings_prev_rank ............................. [[32mPASS[0m in 1.70s]
+[0m15:46:24.539922 [debug] [Thread-1 (]: Finished running node test.dbt_dataQuality.unique_stg_football_rankings_prev_rank.5fb648b946
+[0m15:46:24.540761 [debug] [Thread-1 (]: Began running node test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266
+[0m15:46:24.543730 [info ] [Thread-1 (]: 4 of 4 START test unique_stg_football_rankings_rank ............................ [RUN]
+[0m15:46:24.544728 [debug] [Thread-1 (]: Acquiring new bigquery connection 'test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266'
+[0m15:46:24.545725 [debug] [Thread-1 (]: Began compiling node test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266
+[0m15:46:24.550708 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266"
+[0m15:46:24.551701 [debug] [Thread-1 (]: Timing info for test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266 (compile): 2023-02-08 15:46:24.545725 => 2023-02-08 15:46:24.551701
+[0m15:46:24.553086 [debug] [Thread-1 (]: Began executing node test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266
+[0m15:46:24.558380 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266"
+[0m15:46:24.566872 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:46:24.569559 [debug] [Thread-1 (]: On test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266: /* {"app": "dbt", "dbt_version": "1.4.1", "profile_name": "dbt_dataQuality", "target_name": "dev", "node_id": "test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+
+  select rank as unique_field
+  from `dbt-for-bigquery-377112`.`staging`.`stg_football_rankings`
+  where rank is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m15:46:26.224807 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dbt-for-bigquery-377112&j=bq:EU:bb7475a0-ac05-4c05-ad6b-2f70b3ecd3e6&page=queryresults
+[0m15:46:26.226377 [debug] [Thread-1 (]: Timing info for test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266 (execute): 2023-02-08 15:46:24.553799 => 2023-02-08 15:46:26.225844
+[0m15:46:26.227259 [info ] [Thread-1 (]: 4 of 4 PASS unique_stg_football_rankings_rank .................................. [[32mPASS[0m in 1.68s]
+[0m15:46:26.228727 [debug] [Thread-1 (]: Finished running node test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266
+[0m15:46:26.230978 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m15:46:26.231293 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:46:26.232335 [debug] [MainThread]: Connection 'list_dbt-for-bigquery-377112_marts' was properly closed.
+[0m15:46:26.232886 [debug] [MainThread]: Connection 'test.dbt_dataQuality.unique_stg_football_rankings_rank.bedf3bb266' was properly closed.
+[0m15:46:26.233553 [info ] [MainThread]: 
+[0m15:46:26.234645 [info ] [MainThread]: Finished running 4 tests in 0 hours 0 minutes and 8.01 seconds (8.01s).
+[0m15:46:26.236031 [debug] [MainThread]: Command end result
+[0m15:46:26.260757 [info ] [MainThread]: 
+[0m15:46:26.268327 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:46:26.270858 [info ] [MainThread]: 
+[0m15:46:26.272176 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+[0m15:46:26.275032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000117F34E2AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000117F34E3070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000117F366CD60>]}
+[0m15:46:26.277082 [debug] [MainThread]: Flushing usage events
