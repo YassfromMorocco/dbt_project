@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: stg_football_matches
+    description: Table from 538 that displays football matches and predictions about each match.
+
+  - name: stg_football_rankings
+    description: Table from 538 that displays a teams ranking worldwide.
+
+sources:
+  - name: 538_football
+    description: Database 548 football.
+    database: dbt-for-bigquery-377112
+    schema: 538_football
+    tables: 
+      - name: raw_football_matches
+        description: Raw table from 538 that displays football matches and predictions about each match.
+      - name: raw_football_rankings
+        description: Raw table from 538 that displays a teams ranking worldwide.

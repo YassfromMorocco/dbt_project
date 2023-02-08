@@ -1,0 +1,20 @@
+2023-02-08 09:27:06.041294 (MainThread): unclosed <ssl.SSLSocket fd=1392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 63227), raddr=('172.217.17.10', 443)>
+2023-02-08 09:27:06.043082 (MainThread): unclosed <ssl.SSLSocket fd=1348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 63229), raddr=('172.217.17.10', 443)>
+2023-02-08 09:48:09.009520 (MainThread): unclosed <ssl.SSLSocket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 63611), raddr=('142.250.184.10', 443)>
+2023-02-08 09:48:09.011520 (MainThread): unclosed <ssl.SSLSocket fd=1072, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 63613), raddr=('142.250.184.10', 443)>
+2023-02-08 10:35:45.180936 (Thread-1 (worker)): unclosed <ssl.SSLSocket fd=1292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 49334), raddr=('216.58.215.170', 443)>
+2023-02-08 11:16:16.803861 (MainThread): unclosed <ssl.SSLSocket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 51699), raddr=('172.217.17.10', 443)>
+2023-02-08 11:16:16.806835 (MainThread): unclosed <ssl.SSLSocket fd=1428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 51701), raddr=('172.217.17.10', 443)>
+2023-02-08 11:16:16.808830 (MainThread): unclosed <ssl.SSLSocket fd=1380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 51703), raddr=('172.217.17.10', 443)>
+2023-02-08 13:18:11.458124 (MainThread): unclosed <ssl.SSLSocket fd=1284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 53161), raddr=('142.250.184.10', 443)>
+2023-02-08 13:18:11.470118 (MainThread): unclosed <ssl.SSLSocket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 53163), raddr=('142.250.184.10', 443)>
+2023-02-08 13:18:11.472118 (MainThread): unclosed <ssl.SSLSocket fd=1448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 53165), raddr=('142.250.184.10', 443)>
+2023-02-08 14:54:35.306139 (MainThread): unclosed <ssl.SSLSocket fd=1652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 57032), raddr=('216.58.215.170', 443)>
+2023-02-08 14:54:35.308132 (MainThread): unclosed <ssl.SSLSocket fd=1572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 57034), raddr=('216.58.215.170', 443)>
+2023-02-08 14:54:35.309134 (MainThread): unclosed <ssl.SSLSocket fd=1620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 57036), raddr=('216.58.215.170', 443)>
+2023-02-08 14:54:49.444194 (MainThread): unclosed <ssl.SSLSocket fd=1492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 57049), raddr=('216.58.215.170', 443)>
+2023-02-08 14:54:49.445535 (MainThread): unclosed <ssl.SSLSocket fd=1640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 57051), raddr=('216.58.215.170', 443)>
+2023-02-08 14:54:49.447580 (MainThread): unclosed <ssl.SSLSocket fd=1148, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 57053), raddr=('216.58.215.170', 443)>
+2023-02-08 14:59:51.334838 (MainThread): unclosed <ssl.SSLSocket fd=1436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 57349), raddr=('216.58.215.170', 443)>
+2023-02-08 14:59:51.337829 (MainThread): unclosed <ssl.SSLSocket fd=1484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 57351), raddr=('216.58.215.170', 443)>
+2023-02-08 14:59:51.339866 (MainThread): unclosed <ssl.SSLSocket fd=1568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.38', 57354), raddr=('216.58.215.170', 443)>
