@@ -4,9 +4,20 @@ models:
   - name: stg_football_matches
     description: Table from 538 that displays football matches and predictions about each match.
 
+
   - name: stg_football_rankings
     description: Table from 538 that displays a teams ranking worldwide.
-
+    columns:
+      - name: rank
+        description: team worldwide rank
+        tests:
+          - unique
+          - not_null
+      - name: prev_rank
+        description: team worldwide prev_rank
+        tests:
+          - unique
+          - not_null
 sources:
   - name: 538_football
     description: Database 548 football.
