@@ -2,7 +2,7 @@
   
     
 
-    create or replace table `dbt-for-bigquery-377112`.`538_football`.`mart_football_information`
+    create or replace table `dbt-for-bigquery-377112`.`marts`.`mart_football_information`
     
     
     OPTIONS()
@@ -10,12 +10,12 @@
       WITH
   qryMatches AS (
     SELECT *
-    FROM `dbt-for-bigquery-377112`.`538_football`.`stg_football_matches`
+    FROM `dbt-for-bigquery-377112`.`staging`.`stg_football_matches`
     WHERE league = 'Barclays Premier League'
     ),
   qryRankings AS (
     SELECT *
-    FROM `dbt-for-bigquery-377112`.`538_football`.`stg_football_rankings`
+    FROM `dbt-for-bigquery-377112`.`staging`.`stg_football_rankings`
     WHERE league = 'Barclays Premier League'
   ),
 

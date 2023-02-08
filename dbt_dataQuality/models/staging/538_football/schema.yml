@@ -13,6 +13,7 @@ models:
         tests:
           - unique
           - not_null
+          
       - name: prev_rank
         description: team worldwide prev_rank
         tests:
